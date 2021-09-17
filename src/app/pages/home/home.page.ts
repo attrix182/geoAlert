@@ -1,7 +1,9 @@
+import { registerLocaleData } from '@angular/common';
 import { Component } from '@angular/core';
 import { Geolocation } from '@capacitor/geolocation';
 
 declare var google;
+
 interface Marker {
   position: {
     lat: number,
@@ -35,9 +37,16 @@ export class HomePage {
 
   ngOnInit() {
     this.loadMap();
+    this.showLocation();
+
+    setTimeout(() => {
+      this.showLocation();
+    }, 2000);
+
   }
 
   loadMap() {
+
     // create a new map by passing HTMLElement
     const mapEle: HTMLElement = document.getElementById('map');
     // create LatLng object
@@ -78,5 +87,6 @@ export class HomePage {
     console.log(this.actualPos);
     printCurrentPosition();
     this.loadMap();
+
   }
 }

@@ -1,0 +1,6 @@
+{
+	"appId": "geo.alert.dev",
+	"appName": "geoAlertAPP",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
