@@ -1,11 +1,9 @@
-# geoAlert
-
+# Geo Alert
 
 Ionic + Angular + API Google Maps Javascript
 
 Aplicacion que notifica cuando alguien que nos comparte su ubicacion entra en un perimetro determinado.
 
-Imagenes:
 ![Screenshot_20210917-000902_One UI Home](https://user-images.githubusercontent.com/44885834/133718285-5295d2cc-78a9-442e-ace2-afa2a737d05d.jpg)
 
 ![Screenshot_20210917-000914_geoAlertAPP](https://user-images.githubusercontent.com/44885834/133718289-a7b601ae-76a1-4e22-ada5-95c5327ac43b.jpg)
